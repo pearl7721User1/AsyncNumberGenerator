@@ -49,7 +49,7 @@ class TestViewController: UIViewController {
         if numGenerator is NumberGeneratorWithOperation {
             theNavigationItem.title = "Operation"
         } else {
-            theNavigationItem.title = "Publisher"
+            theNavigationItem.title = "Combine"
         }
         
         numGenerator.$firstSlotDigitAProcess.receive(on: DispatchQueue.main).sink { [weak self] progress in

@@ -17,7 +17,7 @@
 		DD465B5C29826AE800300166 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD465B5B29826AE800300166 /* NumberGenerator.swift */; };
 		DD5E27D62985016800F6A694 /* IntegerSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5E27D52985016700F6A694 /* IntegerSlotView.swift */; };
 		DD5FA79F29920D090053753D /* NumberGeneratorWithOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FA79E29920D090053753D /* NumberGeneratorWithOperation.swift */; };
-		DD5FA7A129920D1A0053753D /* NumberGeneratorWithPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FA7A029920D1A0053753D /* NumberGeneratorWithPublisher.swift */; };
+		DD5FA7A129920D1A0053753D /* NumberGeneratorWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FA7A029920D1A0053753D /* NumberGeneratorWithCombine.swift */; };
 		DD5FA7A529932BB10053753D /* DigitGenerationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FA7A429932BB10053753D /* DigitGenerationOperation.swift */; };
 		DD5FA7A729932E360053753D /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FA7A629932E360053753D /* MenuTableViewController.swift */; };
 		DDE4910B2984F3FB000E6450 /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE4910A2984F3FA000E6450 /* Check.png */; };
@@ -37,7 +37,7 @@
 		DD465B5B29826AE800300166 /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
 		DD5E27D52985016700F6A694 /* IntegerSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerSlotView.swift; sourceTree = "<group>"; };
 		DD5FA79E29920D090053753D /* NumberGeneratorWithOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorWithOperation.swift; sourceTree = "<group>"; };
-		DD5FA7A029920D1A0053753D /* NumberGeneratorWithPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorWithPublisher.swift; sourceTree = "<group>"; };
+		DD5FA7A029920D1A0053753D /* NumberGeneratorWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorWithCombine.swift; sourceTree = "<group>"; };
 		DD5FA7A429932BB10053753D /* DigitGenerationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitGenerationOperation.swift; sourceTree = "<group>"; };
 		DD5FA7A629932E360053753D /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		DDE4910A2984F3FA000E6450 /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check.png; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		DD5FA7A229932AB00053753D /* Combine */ = {
 			isa = PBXGroup;
 			children = (
-				DD5FA7A029920D1A0053753D /* NumberGeneratorWithPublisher.swift */,
+				DD5FA7A029920D1A0053753D /* NumberGeneratorWithCombine.swift */,
 				DD465B5929826AC700300166 /* DigitGenerationPublisher.swift */,
 			);
 			path = Combine;
@@ -225,7 +225,7 @@
 				DD465B5A29826AC700300166 /* DigitGenerationPublisher.swift in Sources */,
 				DD5E27D62985016800F6A694 /* IntegerSlotView.swift in Sources */,
 				DD5FA7A729932E360053753D /* MenuTableViewController.swift in Sources */,
-				DD5FA7A129920D1A0053753D /* NumberGeneratorWithPublisher.swift in Sources */,
+				DD5FA7A129920D1A0053753D /* NumberGeneratorWithCombine.swift in Sources */,
 				DD5FA79F29920D090053753D /* NumberGeneratorWithOperation.swift in Sources */,
 				DD465B49298268E700300166 /* TestViewController.swift in Sources */,
 				DD5FA7A529932BB10053753D /* DigitGenerationOperation.swift in Sources */,

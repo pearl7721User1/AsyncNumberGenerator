@@ -79,7 +79,7 @@ class DigitGenerationOperation: Operation {
     
     private func randomNum(iterator: ((_ progress: CGFloat) -> (Void))?, completion:((_ value: Int) -> (Void))?) {
         
-        let delay: Double = Double(Int.random(in: 1...8)) / 100.0
+        let delay: Double = Double(Int.random(in: 1...7)) / 100.0
         var progress: CGFloat = 0
         
         print(delay)

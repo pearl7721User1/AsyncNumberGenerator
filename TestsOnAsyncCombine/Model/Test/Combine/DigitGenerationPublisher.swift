@@ -48,7 +48,7 @@ extension Publishers {
             
             self.source = DispatchSource.makeTimerSource(queue: queue)
             
-            let delay: Double = Double(Int.random(in: 1...8)) / 100.0
+            let delay: Double = Double(Int.random(in: 1...7)) / 100.0
             var progress: CGFloat = 0
             
             self.source?.schedule(deadline: .now() + delay,

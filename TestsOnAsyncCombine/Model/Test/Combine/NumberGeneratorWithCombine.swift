@@ -1,5 +1,5 @@
 //
-//  NumberGeneratorWithPublisher.swift
+//  NumberGeneratorWithCombine.swift
 //  TestsOnAsyncCombine
 //
 //  Created by Giwon Seo on 2023/02/07.
@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-class NumberGeneratorWithPublisher: NumberGenerator {
+class NumberGeneratorWithCombine: NumberGenerator {
 
     // intermediate values
     @Published private var firstSlotDigitA: Int? = nil

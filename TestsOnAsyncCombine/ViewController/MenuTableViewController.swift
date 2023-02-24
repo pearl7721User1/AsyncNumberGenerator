@@ -16,7 +16,7 @@ class MenuTableViewController: UITableViewController {
         if indexPath.row == 0 {
             vc.numGenerator = NumberGeneratorWithOperation()
         } else if indexPath.row == 1 {
-            vc.numGenerator = NumberGeneratorWithPublisher()
+            vc.numGenerator = NumberGeneratorWithCombine()
         }
         
         self.navigationController?.pushViewController(vc, animated: true)
